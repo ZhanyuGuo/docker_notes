@@ -1,4 +1,4 @@
-# 2. Proxy Settings on Linux
+# 2. Proxy Configuration on Linux
 
 Add the following to `~/.bashrc` or `~/.zshrc` to conviently set or unset proxy. 
 
