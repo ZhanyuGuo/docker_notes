@@ -3,7 +3,7 @@
 - [3. ROS with GUI using Docker](#3-ros-with-gui-using-docker)
     - [3.1. ROS1](#31-ros1)
     - [3.2. ROS2](#32-ros2)
-- [References](#references)
+    - [3.3. References](#33-references)
 
 **NOTE: Windows 11**
 
@@ -55,7 +55,7 @@
 
     ![turtlesim_ros2](./assets/turtlesim_ros2.png)
 
-# References
+## 3.3. References
 
 - [ROS2 Jazzy | Docker GUI | Windows 11](https://www.youtube.com/watch?v=ECaBsKY9rUM)
 
