@@ -1,19 +1,24 @@
 # 1. Docker Installation and Configuration
 
 - [1. Docker Installation and Configuration](#1-docker-installation-and-configuration)
-    - [1.1. Windows](#11-windows)
-        - [1.1.1. Check WSL](#111-check-wsl)
-        - [1.1.2. Install](#112-install)
-        - [1.1.3. Open Docker Desktop](#113-open-docker-desktop)
-        - [1.1.4. Network Issues](#114-network-issues)
-        - [1.1.5. GPU Settings](#115-gpu-settings)
-    - [1.2. Ubuntu](#12-ubuntu)
-        - [1.2.1. Uninstall Docker Engine](#121-uninstall-docker-engine)
-        - [1.2.2. Install](#122-install)
-        - [1.2.3. (optional) Manage Docker as a non-root user](#123-optional-manage-docker-as-a-non-root-user)
-        - [1.2.4. Network Issues](#124-network-issues)
-        - [1.2.5. GPU Settings](#125-gpu-settings)
-    - [1.3. 总结](#13-总结)
+  - [1.1. Windows](#11-windows)
+    - [1.1.1. Check WSL](#111-check-wsl)
+    - [1.1.2. Install](#112-install)
+    - [1.1.3. Open Docker Desktop](#113-open-docker-desktop)
+    - [1.1.4. Network Issues](#114-network-issues)
+    - [1.1.5. GPU Settings](#115-gpu-settings)
+  - [1.2. Ubuntu](#12-ubuntu)
+    - [1.2.1. Uninstall Docker Engine](#121-uninstall-docker-engine)
+    - [1.2.2. Install](#122-install)
+    - [1.2.3. (optional) Manage Docker as a non-root user](#123-optional-manage-docker-as-a-non-root-user)
+    - [1.2.4. Network Issues](#124-network-issues)
+    - [1.2.5. GPU Settings](#125-gpu-settings)
+  - [1.3. Vscode Dev](#13-vscode-dev)
+    - [1.3.1. Install Vscode](#131-install-vscode)
+    - [1.3.2. Install the following extensions](#132-install-the-following-extensions)
+    - [1.3.3. Run a container using Docker extension](#133-run-a-container-using-docker-extension)
+    - [1.3.4. Attach vscode](#134-attach-vscode)
+  - [1.4. 总结](#14-总结)
 
 ## 1.1. Windows
 
@@ -223,6 +228,30 @@ Refer to [this](https://docs.docker.com/engine/install/linux-postinstall/).
 
     ![docker_nvdia_smi_linux](./assets/docker_nvdia_smi_linux.png)
 
-## 1.3. 总结
+## 1.3. Vscode Dev
+
+### 1.3.1. Install Vscode
+
+[Vscode](https://code.visualstudio.com/)
+
+### 1.3.2. Install the following extensions
+
+- Docker
+
+- Dev Containers
+
+![vscode_extensions](./assets/vscode_extensions.png)
+
+### 1.3.3. Run a container using Docker extension
+
+![vscode_run_container](./assets/vscode_run_container.png)
+
+### 1.3.4. Attach vscode
+
+![vscode_attach_container](./assets/vscode_attach_container.png)
+
+![vscode_in_container](./assets/vscode_in_container.png)
+
+## 1.4. 总结
 
 这篇笔记记录了在`Windows 11`和`Ubuntu`上安装docker并配置网络和GPU的全过程
